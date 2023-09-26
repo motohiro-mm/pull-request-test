@@ -2,7 +2,7 @@ foods = ['ピーマン','トマト','セロリ']
 count = 0
 foods.each do |food|
   print "#{food}はお好きですか？ => "
-  answer = [ 'はい', 'いいえ', 'どちらでもない'].sample
+  answer = [ 'はい', 'いいえ', 'その他' ].sample
   puts answer
 
   count += 1
