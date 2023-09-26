@@ -6,7 +6,7 @@ foods.each do |food|
   puts answer
 
   count += 1
-  redo if answer != 'はい' && count < 3
+  redo if answer != 'はい' && count < 5
 
   count = 0
 end
